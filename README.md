@@ -88,6 +88,21 @@ This  will Netflix clone on your web browser.
 ```
 By doing this, it allows us to deploy an optimized production build for our website.
 
+
+## How to Use Flixnic
+
+- Click on 'Get Started'
+- Input email and password
+- Furthermore, click 'Sign Up' (for first timer user)
+- Otherwise, click 'Sign In'
+- Click the avatar logo on the top right side
+- Click the 'Subscribe' button on the plan you want
+- Wait for a bit until it redirects you to the payment page
+- Input your information and proceed the payment (no charge)
+- Once it's done, you can see your subscription plan and the renewal date 
+- Click the Netflix logo to go back to main page
+  
+
 ## Tech Stack
 
 **Client:** React, Redux
