@@ -18,8 +18,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Functional Sign Out button
 - Clickable and functional logo and avatar
 - Use Firestore as the database
-- Functional Subscribe button using Stripe
-- Functional payment page using Stripe
+- Functional Subscribe button that directs users to the payment page
+- Functional payment page from Stripe
 
 
 
