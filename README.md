@@ -26,6 +26,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Future plans
 
+- Add manage profiles page
 - Update UI/UX 
 - Add trailer function
 
