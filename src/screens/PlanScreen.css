@@ -1,0 +1,26 @@
+.planscreensubscription {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.planscreensubscription:hover {
+  opacity: 1.1;
+}
+
+.planscreensubscription > button {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 7px 17px;
+  border-radius: 3px;
+}
+
+.planscreensubscription-disabled > button {
+  background-color: gray !important;
+  padding: 7px 20px;
+}
