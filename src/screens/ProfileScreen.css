@@ -60,11 +60,6 @@
   margin-top: 20px;
 }
 
-.profilescreenplans > p {
-  margin-top: 10px;
-}
-
-.profilescreenplans > h5 {
-  font-weight: 200;
-  width: 26%;
+.profilescreenplans > h3 {
+  padding-left: 17px;
 }
