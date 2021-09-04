@@ -13,13 +13,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Features
 
 - Use the TMDB API for movie references
-- Use React Router to navigate between pages
-- Use of functional Sign Up and Sign In button
-- Use of functional Sign Out button
-- Use of clickable and functional logo and avatar
-- Use Firestore as the database
-- Use of functional Subscribe button using Stripe
-- Use of functional payment page using Stripe
+- Use of React Router to navigate between pages
+- Functional Sign Up and Sign In button
+- Functional Sign Out button
+- Clickable and functional logo and avatar
+- Use of Firestore as the database
+- Functional Subscribe button using Stripe
+- Functional payment page using Stripe
 
 
 
