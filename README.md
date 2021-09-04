@@ -19,7 +19,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Use of clickable and functional logo and avatar
 - Use Firebase as the database
 - Use of functional Subscribe button using Stripe
-- Use of functional payment method using Stripe
+- Use of functional payment page using Stripe
 
 
 
