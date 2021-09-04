@@ -66,8 +66,9 @@ To run this project
 
 This  will Netflix clone on your web browser
 
-
-To deploy your web, do the followings
+```
+```
+To deploy your web, do the followings:
 ```bash
   firebase login
   
