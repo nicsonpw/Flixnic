@@ -28,6 +28,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Add Manage Profiles page
 - Add icons for NavBar, Movie titles, Movie posters
+- Add popout effects for Movie posters
 - Update UI/UX 
 - Add trailer function
 
