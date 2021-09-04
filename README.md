@@ -59,14 +59,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment
 
-To run this project:
+- To run this project:
 ```bash
   yarn start
 ```
 
 This  will Netflix clone on your web browser.
 
-To deploy your web, do the followings:
+- To deploy your web, do the followings:
 ```bash
   firebase login
   
@@ -77,7 +77,7 @@ To deploy your web, do the followings:
   firebase deploy
 ```
 
-For every new updates, run these commands again:
+- For every new updates, run these commands again:
 ```bash
   npm run build
   
