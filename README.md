@@ -4,7 +4,9 @@ An ongoing project solely to enrich my knowledge of React and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-[![Flixnic](https://netflix2-7eeb0.web.app/)
+[![Flixnic]()
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://netflix2-7eeb0.web.app/)
 
 
 ## Features
