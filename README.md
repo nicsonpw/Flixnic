@@ -1,44 +1,83 @@
+
+# Nicson's Netflix Clone
+An ongoing project solely to enrich my knowledge of React and Redux
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Use the TMDB API for movie references
+- Use React Router to navigate between pages
+- Use Firebase as the database
+- Use Stripe for payment and subscription method
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Future plans
 
-### `yarn test`
+- Update UI/UX 
+- Add trailer function
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Installation
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create project with Redux template 
+```bash
+  npx create-react-app "projectname" --template redux
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Install Firebase
+```bash
+  npm i firebase@^4.8.0 --save
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Install Axios
+```bash
+  yarn add axios
+```
 
-### `yarn eject`
+- Install Stripe
+```bash
+  yarn add @stripe/stripe-js
+```
+- Install React Router
+```bash
+  yarn add react-router-dom 
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To run this project
+```bash
+  yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This  will Netflix clone on your web browser
 
-## Learn More
+To deploy your web, do the followings
+```bash
+  firebase login
+  
+  firebase init
+  
+  npm run build
+  
+  firebase deploy
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For every new updates, run these commands again
+```bash
+  npm run build
+  
+  firebase deploy
+```
+By doing this, it allows us to deploy an optimized production build for our website.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
+
+**Client:** React, Redux
+
+**Server:** Node, Firebase
+
+
