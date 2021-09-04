@@ -1,44 +1,97 @@
+
+# Nicson's Netflix Clone
+An ongoing project solely to enrich my knowledge of React and Redux
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
-## Available Scripts
 
-In the project directory, you can run:
+[![Flixnic](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://netflix2-7eeb0.web.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/nicsonpw)
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Features
 
-### `yarn test`
+- Use the TMDB API for movie references
+- Use React Router to navigate between pages
+- Functional Sign Up and Sign In button
+- Functional Sign Out button
+- Clickable and functional logo and avatar
+- Use Firestore as the database
+- Functional Subscribe button that redirect users to the payment page
+- Functional payment page from Stripe
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Future plans
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Add Manage Profiles page
+- Add icons for NavBar, Movie titles, Movie posters
+- Add popout effects for Movie posters
+- Update UI/UX 
+- Add trailer function
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Create project with Redux template 
+```bash
+  npx create-react-app "projectname" --template redux
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Install Firebase
+```bash
+  npm i firebase@^4.8.0 --save
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Install Axios
+```bash
+  yarn add axios
+```
 
-## Learn More
+- Install Stripe
+```bash
+  yarn add @stripe/stripe-js
+```
+- Install React Router
+```bash
+  yarn add react-router-dom 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
+
+- To run this project:
+```bash
+  yarn start
+```
+
+This  will Netflix clone on your web browser.
+
+- To deploy your web, do the followings:
+```bash
+  firebase login
+  
+  firebase init
+  
+  npm run build
+  
+  firebase deploy
+```
+
+- For every new updates, run these commands again:
+```bash
+  npm run build
+  
+  firebase deploy
+```
+By doing this, it allows us to deploy an optimized production build for our website.
+
+## Tech Stack
+
+**Client:** React, Redux
+
+**Server:** Node, Firebase
+
+
